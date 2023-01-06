@@ -22,18 +22,80 @@
     font-size: 65px;
     margin-bottom: 40px;
 }
-.baner-description{
+
+.baner-description {
     font-weight: 400;
     font-size: 20px;
     margin-bottom: 40px;
 }
-.btn-primery{
+
+.btn-primery {
     font-weight: 800;
     font-size: 20px;
-    color:#FFFFFF;
+    color: #FFFFFF;
     background-color: #FF5959;
     border: none;
     border-radius: 5px;
     width: 160px;
     height: 56px;
+}
+
+/* section one styles */
+.do-amount {
+    justify-content: space-around;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.do-tittle {
+    font-weight: 800;
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.do-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.donation-amount {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.li1 {
+    margin: 20px;
+    padding: 50px 30px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #707070;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+
+.li1:hover {
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 2px solid #FF5959;
+}
+
+.am-drescription {
+    outline: none;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    color: #B3B3B3;
+    margin: 10px;
+}
+.am-line{
+    width: 50%;
+    height: 2px;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #B3B3B3;
 }
