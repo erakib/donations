@@ -38,6 +38,7 @@
     border-radius: 5px;
     width: 160px;
     height: 56px;
+    margin: 10px;
 }
 
 /* section one styles */
@@ -65,11 +66,12 @@
     gap: 20px;
     list-style: none;
     justify-content: center;
+    margin: 40px;
 
 }
 
 .li1 {
-    margin: 20px;
+    margin: 0px;
     padding: 50px 30px;
     font-weight: 800;
     font-size: 30px;
@@ -79,9 +81,11 @@
 }
 
 .li1:hover {
+    margin: 0;
     color: #FF5959;
     background-color: #FFEEEE;
     border: 2px solid #FF5959;
+    cursor: pointer;
 }
 
 .am-drescription {
@@ -91,11 +95,148 @@
     font-size: 18px;
     color: #B3B3B3;
     margin: 10px;
+    padding-left: 20px;
 }
-.am-line{
+
+.am-line {
     width: 50%;
-    height: 2px;
+    height: auto;
     margin: auto;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     color: #B3B3B3;
+}
+
+/* plan section styles */
+.do-plan {
+    margin-top: 70px;
+    height: 600px;
+    width: 1020px;
+    margin: auto;
+
+}
+
+.plan-tittle {
+    font-weight: 800;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.plan-description {
+    color: #707070;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.plans {
+    display: flex;
+    gap: 30px;
+
+}
+
+.plan-tittle {
+    margin-top: 130px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.plans-description {
+    text-align: center;
+    font-size: 25px;
+    line-height: 28px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.plan-img {
+    margin-bottom: 20px;
+}
+
+.pplan-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #121212;
+    margin-bottom: 16px;
+
+}
+
+pplan-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #707070;
+}
+
+.plan1 {
+    height: 245px;
+    width: 350px;
+    padding: 50px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+
+}
+
+.plan2 {
+    height: 245px;
+    width: 350px;
+    padding: 50px;
+    background: #ffeeee;
+    border-radius: 5px;
+
+}
+
+.plan3 {
+    height: 245px;
+    width: 350px;
+    padding: 50px;
+    background: #FFF4D6;
+    border-radius: 5px;
+
+}
+
+/* story section styles */
+.story {
+    display: flex;
+    gap: 50px;
+    margin-top: 70px;
+    height: 600px;
+    width: 1020px;
+    margin: auto;
+}
+
+.text {
+    padding: 20px;
+}
+
+.text-story-tittle {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 54px;
+    color: #121212;
+    margin-bottom: 20px;
+}
+
+.text-story-description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+.btn-htc{
+    font-weight: 800;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 40px 0;
+}
+
+.story-img {
+    height: 477px;
+    width: 456px;
+    border-radius: 10px;
 }
