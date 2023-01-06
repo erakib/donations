@@ -224,7 +224,8 @@ pplan-description {
     color: #707070;
     margin-bottom: 50px;
 }
-.btn-htc{
+
+.btn-htc {
     font-weight: 800;
     font-size: 20px;
     color: #FFFFFF;
@@ -238,5 +239,69 @@ pplan-description {
 .story-img {
     height: 477px;
     width: 456px;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+/* update section styles */
+.update {
+    text-align: center;
+}
+
+.email-submit {
+    width: 809px;
+    height: 200px;
+    margin: auto;
+    background: #FFF4D6;
+    margin-bottom: 150px;
+    border-radius: 5px;
+}
+
+.input-btn {
+    font-weight: 600;
+    font-size: 18px;
+    width: 250px;
+    height: 48px;
+    border: none;
+    outline: none;
+    margin-top: 80px;
+    background: #D9D9D9;
+    color: #000000;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.submit-btn {
+    color: #FAFAFA;
+    background-color: #FF5959;
+    font-weight: 600;
+    font-size: 18px;
+    width: 180px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+/* footer styles */
+.footer {
+    height: 200px;
+    width: auto;
+    background: #0B0D17;
+    text-align: center;
+}
+
+.fo-tittle {
+    font-family: 'Lobster';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: #FF5959;
+    margin: 40px;
+    
+}
+.fo-description{
+    color: #D9DBE1;
+    margin-top: 30px;
 }
